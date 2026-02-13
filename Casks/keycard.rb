@@ -33,7 +33,7 @@ cask "keycard" do
   name "keycard"
   desc "Delightful credential management for developers, services and agents"
   homepage "https://keycard.ai"
-  version "0.0.2"
+  version "0.0.3"
 
   livecheck do
     skip "Auto-generated on release."
@@ -49,7 +49,7 @@ cask "keycard" do
           "Authorization: Bearer #{GitHubHelper.token}",
           "X-GitHub-Api-Version: 2022-11-28",
         ]
-      sha256 "810a74877c4437e5c49ea797faaae16380fbbe754d753244c3eff8e95e60ad56"
+      sha256 "0406226f92475fbc72a689a9d4f4715808578f4d8a2761d869641572f7c6a4bb"
     end
     on_arm do
       url "#{GitHubHelper.release_asset_url("v#{version}", "keycard_MacOS_arm64.zip")}",
@@ -58,7 +58,7 @@ cask "keycard" do
           "Authorization: Bearer #{GitHubHelper.token}",
           "X-GitHub-Api-Version: 2022-11-28",
         ]
-      sha256 "bcfeba10e4a81fde8215d7ceaf298235d202f70125a27584b617a36bfc78a07e"
+      sha256 "5634928f1567b7361c4d793cefcfffae17f10e4088892cfb9012d215f7083d92"
     end
   end
 
@@ -70,7 +70,7 @@ cask "keycard" do
           "Authorization: Bearer #{GitHubHelper.token}",
           "X-GitHub-Api-Version: 2022-11-28",
         ]
-      sha256 "f6a9fb724846b05cebd06bda6412fa18bf523041e3541916ef5b7916f0d450a1"
+      sha256 "b303b5213e7564fec39b8bd67c4d37c1e4a9732c40532188b455793bb422d312"
     end
     on_arm do
       url "#{GitHubHelper.release_asset_url("v#{version}", "keycard_Linux_arm64.tar.gz")}",
@@ -79,7 +79,7 @@ cask "keycard" do
           "Authorization: Bearer #{GitHubHelper.token}",
           "X-GitHub-Api-Version: 2022-11-28",
         ]
-      sha256 "d885d507bda8f7acc29fdc0a5e50c52cfb50733a06b92ae7ad93ca52845a3fa4"
+      sha256 "e4d84222e0ad2c935cda9ddb7f926527fc488a6c0568b013e63d9b6ebe16e977"
     end
   end
 
