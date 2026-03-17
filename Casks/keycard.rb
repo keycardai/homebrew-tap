@@ -15,12 +15,12 @@ cask "keycard" do
     on_intel do
       url "https://github.com/keycardai/homebrew-tap/releases/download/v#{version}/keycard_MacOS_x86_64.zip",
         verified: "github.com/keycardai/homebrew-tap/"
-      sha256 "d4d40ed427b6711c7f26388d3129b5d6705b67a426f2097dbf46a56da725e445"
+      sha256 "b50e0f679605813e2aa7b8979b1832999a3a32c9f912a83462c7dbcdfa3c1630"
     end
     on_arm do
       url "https://github.com/keycardai/homebrew-tap/releases/download/v#{version}/keycard_MacOS_arm64.zip",
         verified: "github.com/keycardai/homebrew-tap/"
-      sha256 "b55d83c16a0a4130a44b0ad6289e36485a7dd1cf51b7e336a25724adf9c4d633"
+      sha256 "99f62333d221716733a6015dfb123d6a8bd1189ffd8c7676e27866cb77cd064b"
     end
   end
 
@@ -28,12 +28,12 @@ cask "keycard" do
     on_intel do
       url "https://github.com/keycardai/homebrew-tap/releases/download/v#{version}/keycard_Linux_x86_64.tar.gz",
         verified: "github.com/keycardai/homebrew-tap/"
-      sha256 "d6203e4b7bcb561b953ad114dac02645ec7a6f372a8f09b2c194b22664d44050"
+      sha256 "f34f789cf23ba48204e8dd3312a9c1724e6954c288c1dd137d12253898363da2"
     end
     on_arm do
       url "https://github.com/keycardai/homebrew-tap/releases/download/v#{version}/keycard_Linux_arm64.tar.gz",
         verified: "github.com/keycardai/homebrew-tap/"
-      sha256 "680b16c002d29feee0d128172a5e204b977503a91386dce3c65bc1b78fe96676"
+      sha256 "a868f1233d58d7cabe35025b48c91f8c72b3b6e1d4fb6a37e6ce5920d7bb46d3"
     end
   end
 
