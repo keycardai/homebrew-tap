@@ -3,7 +3,7 @@ cask "keycard" do
   name "keycard"
   desc "Delightful credential management for developers, services and agents"
   homepage "https://keycard.ai"
-  version "0.0.9"
+  version "0.0.10"
 
   livecheck do
     skip "Auto-generated on release."
@@ -15,12 +15,12 @@ cask "keycard" do
     on_intel do
       url "https://github.com/keycardai/homebrew-tap/releases/download/v#{version}/keycard_MacOS_x86_64.zip",
         verified: "github.com/keycardai/homebrew-tap/"
-      sha256 "20b6527ea8b05bf573a2769e485d28521759a9b044da7c0f874602609076dbcd"
+      sha256 "02e1b9c0233c2783c7c5a8f41c34b2b49447541a35dc73cc96a2b971ef5832fc"
     end
     on_arm do
       url "https://github.com/keycardai/homebrew-tap/releases/download/v#{version}/keycard_MacOS_arm64.zip",
         verified: "github.com/keycardai/homebrew-tap/"
-      sha256 "e663fb9aebafa2c6cee485f304f4c291ee1ef361622f1f2dd1ae687ebe2b0343"
+      sha256 "1b1c246188af404a81b89212186f5d9604d1b08e473836e1fc5400baa6a5a1b6"
     end
   end
 
@@ -28,12 +28,12 @@ cask "keycard" do
     on_intel do
       url "https://github.com/keycardai/homebrew-tap/releases/download/v#{version}/keycard_Linux_x86_64.tar.gz",
         verified: "github.com/keycardai/homebrew-tap/"
-      sha256 "d15b94503bbf40d25fd0fe59f8cdc205253dc92fc3c4da68e902243de1c5adb0"
+      sha256 "6a0b48d24cbfbaf9ceb0497dca9e928556b67202f17bd81fd36d62b7a4fe59b3"
     end
     on_arm do
       url "https://github.com/keycardai/homebrew-tap/releases/download/v#{version}/keycard_Linux_arm64.tar.gz",
         verified: "github.com/keycardai/homebrew-tap/"
-      sha256 "b1cdf4bddecd16482be2a18ae7ab459616e90722a0c91e0067ee41e5a84c6efb"
+      sha256 "e1ba68c4d383d63b9baee58dd0f578aecd2d2a884a85c7f9e4509325bc143dcb"
     end
   end
 
